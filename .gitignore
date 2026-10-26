@@ -1,5 +1,5 @@
-# Whitelist. Only the encrypted page and its tooling are tracked.
-# The plaintext source page lives outside this repo and must never land here.
+# Whitelist. Only the encrypted pages and their tooling are tracked.
+# Plaintext source pages live outside this repo and must never land here.
 /*
 !/.gitignore
 !/.nojekyll
@@ -7,3 +7,7 @@
 !/index.html
 !/update.sh
 !/README.md
+!/p[0-9]*/
+/p[0-9]*/*
+!/p[0-9]*/index.html
+!/template.html
