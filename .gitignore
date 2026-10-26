@@ -1,0 +1,9 @@
+# Whitelist. Only the encrypted page and its tooling are tracked.
+# The plaintext source page lives outside this repo and must never land here.
+/*
+!/.gitignore
+!/.nojekyll
+!/.staticrypt.json
+!/index.html
+!/update.sh
+!/README.md
